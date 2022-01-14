@@ -1,0 +1,81 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="White" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="Gray1" Color="#EEEEEE" />
+    <SolidColorBrush x:Key="Gray2" Color="#CCCCCC" />
+    <SolidColorBrush x:Key="Gray3" Color="#AAAAAA" />
+    <SolidColorBrush x:Key="Gray4" Color="#888888" />
+    <SolidColorBrush x:Key="Gray5" Color="#666666" />
+    <SolidColorBrush x:Key="Gray6" Color="#444444" />
+    <SolidColorBrush x:Key="Gray7" Color="#222222" />
+    <SolidColorBrush x:Key="Black" Color="#000000" />
+
+    <SolidColorBrush x:Key="LightRed" Color="#FF4444" />
+    <SolidColorBrush x:Key="Red" Color="#FF0000" />
+    <SolidColorBrush x:Key="DarkRed" Color="#AA0000" />
+
+    <SolidColorBrush x:Key="LightGreen" Color="#00FF00" />
+    <SolidColorBrush x:Key="Green" Color="#00CC00" />
+    <SolidColorBrush x:Key="DarkGreen" Color="#008800" />
+
+    <SolidColorBrush x:Key="LightBlue" Color="#4444FF" />
+    <SolidColorBrush x:Key="Blue" Color="#0000FF" />
+    <SolidColorBrush x:Key="DarkBlue" Color="#0000AA" />
+
+    <SolidColorBrush x:Key="LightYellow" Color="#FFFF66" />
+    <SolidColorBrush x:Key="Yellow" Color="#FFFF00" />
+    <SolidColorBrush x:Key="DarkYellow" Color="#AAAA00" />
+
+    <SolidColorBrush x:Key="LightPink" Color="#FFAAFF" />
+    <SolidColorBrush x:Key="Pink" Color="#FF66FF" />
+    <SolidColorBrush x:Key="DarkPink" Color="#FF22FF" />
+
+    <SolidColorBrush x:Key="LightCyan" Color="#88FFFF" />
+    <SolidColorBrush x:Key="Cyan" Color="#00FFFF" />
+    <SolidColorBrush x:Key="DarkCyan" Color="#00AAAA" />
+
+    <SolidColorBrush x:Key="LightOrange" Color="#FFCC00" />
+    <SolidColorBrush x:Key="Orange" Color="#FFAA00" />
+    <SolidColorBrush x:Key="DarkOrange" Color="#FF8800" />
+
+    <SolidColorBrush x:Key="LightPurple" Color="#AA44FF" />
+    <SolidColorBrush x:Key="Purple" Color="#8800FF" />
+    <SolidColorBrush x:Key="DarkPurple" Color="#8800CC" />
+
+    <SolidColorBrush x:Key="LightBrown" Color="#AA6600" />
+    <SolidColorBrush x:Key="Brown" Color="#884400" />
+    <SolidColorBrush x:Key="DarkBrown" Color="#662200" />
+
+    <SolidColorBrush x:Key="BgColor0" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BgColor1" Color="#EEEEEE" />
+    <SolidColorBrush x:Key="BgColor2" Color="#CCCCCC" />
+    <SolidColorBrush x:Key="BgColor3" Color="#AAAAAA" />
+    <SolidColorBrush x:Key="BgColor4" Color="#888888" />
+    <SolidColorBrush x:Key="BgColor5" Color="#666666" />
+    <SolidColorBrush x:Key="BgColor6" Color="#444444" />
+    <SolidColorBrush x:Key="BgColor7" Color="#222222" />
+
+    <SolidColorBrush x:Key="TextColor" Color="#222222" />
+    <SolidColorBrush x:Key="BorderColor" Color="#222222" />
+    <SolidColorBrush x:Key="ButtonColor" Color="#888888" />
+    <SolidColorBrush x:Key="ButtonPressColor" Color="#444444" />
+
+
+
+
+    <!--<StaticResourceExtension ResourceKey="white" x:Key="BgColor0" />
+    <StaticResourceExtension ResourceKey="Gray1" x:Key="BgColor1" />
+    <StaticResourceExtension ResourceKey="Gray2" x:Key="BgColor2" />
+    <StaticResourceExtension ResourceKey="Gray3" x:Key="BgColor3" />
+    <StaticResourceExtension ResourceKey="Gray4" x:Key="BgColor4" />
+    <StaticResourceExtension ResourceKey="Gray5" x:Key="BgColor5" />
+    <StaticResourceExtension ResourceKey="Gray6" x:Key="BgColor6" />
+    <StaticResourceExtension ResourceKey="Gray7" x:Key="BgColor7" />
+
+    <StaticResourceExtension ResourceKey="Gray7" x:Key="TextColor" />
+    <StaticResourceExtension ResourceKey="Gray7" x:Key="BorderColor" />
+    <StaticResourceExtension ResourceKey="Gray4" x:Key="ButtonColor" />
+    <StaticResourceExtension ResourceKey="Gray6" x:Key="ButtonPressColor" />-->
+
+</ResourceDictionary>
