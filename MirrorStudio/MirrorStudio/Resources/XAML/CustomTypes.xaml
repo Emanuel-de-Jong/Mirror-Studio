@@ -4,24 +4,12 @@
     <Style TargetType="Grid" x:Key="GridComponentStyle">
         <Setter Property="Background" Value="{StaticResource BgColor1}"/>
     </Style>
-
-
-    <Style TargetType="Border" x:Key="BorderStyle">
-        <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
-        <Setter Property="BorderThickness" Value="3"/>
-    </Style>
-
-    <Style TargetType="GridSplitter" x:Key="GridSplitterStyle">
-        <Setter Property="Background" Value="{StaticResource BorderColor}"/>
-        <Setter Property="HorizontalAlignment" Value="Stretch"/>
-        <Setter Property="VerticalAlignment" Value="Stretch"/>
-    </Style>
     
     
     <Style TargetType="Label" BasedOn="{StaticResource {x:Type Label}}" x:Key="TitleLabelStyle">
         <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="FontSize" Value="25"/>
+        <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontWeight" Value="Bold"/>
     </Style>
     
@@ -100,7 +88,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ListBox">
-                    <Border Style="{StaticResource BorderStyle}">
+                    <Border>
                         <ScrollViewer Background="{StaticResource BgColor2}">
                             <StackPanel IsItemsHost="True" />
                         </ScrollViewer>
@@ -115,7 +103,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ListBoxItem">
-                    <Border Name="Border" Style="{StaticResource BorderStyle}" BorderThickness="0 0 0 3" Background="{TemplateBinding Background}">
+                    <Border Name="Border" BorderThickness="0 0 0 2" Background="{TemplateBinding Background}">
                         <ContentPresenter />
                     </Border>
                 </ControlTemplate>
@@ -123,10 +111,10 @@
         </Setter>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="true">
-                <Setter Property="Background" Value="{StaticResource BgColor5}"/>
+                <Setter Property="Background" Value="{StaticResource BgColor4}"/>
             </Trigger>
             <Trigger Property="IsSelected" Value="true">
-                <Setter Property="Background" Value="{StaticResource BgColor5}"/>
+                <Setter Property="Background" Value="{StaticResource BgColor4}"/>
             </Trigger>
         </Style.Triggers>
     </Style>

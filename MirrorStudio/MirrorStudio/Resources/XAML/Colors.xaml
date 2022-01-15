@@ -57,7 +57,7 @@
     <SolidColorBrush x:Key="BgColor7" Color="#222222" />
 
     <SolidColorBrush x:Key="TextColor" Color="#222222" />
-    <SolidColorBrush x:Key="BorderColor" Color="#222222" />
+    <SolidColorBrush x:Key="BorderColor" Color="#666666" />
     <SolidColorBrush x:Key="ButtonColor" Color="#888888" />
     <SolidColorBrush x:Key="ButtonPressColor" Color="#444444" />
 

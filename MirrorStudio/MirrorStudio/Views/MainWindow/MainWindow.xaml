@@ -14,15 +14,15 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70" />
-            <RowDefinition Height="8*" />
-            <RowDefinition Height="4" />
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="2" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="2" />
             <ColumnDefinition Width="3*" />
-            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="2" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
@@ -30,13 +30,13 @@
 
         <mainwindow:EventComponent Grid.Row="1" Grid.RowSpan="3" />
         
-        <GridSplitter Grid.Row="1" Grid.RowSpan="3" Grid.Column="1" Width="4" Style="{StaticResource GridSplitterStyle}" />
+        <GridSplitter Grid.Row="1" Grid.RowSpan="3" Grid.Column="1" Width="2" />
 
-        <GridSplitter Grid.Row="1" Grid.RowSpan="3" Grid.Column="3" Width="4" Style="{StaticResource GridSplitterStyle}" />
+        <GridSplitter Grid.Row="1" Grid.RowSpan="3" Grid.Column="3" Width="2" />
         
         <mainwindow:PropertiesComponent Grid.Row="1" Grid.RowSpan="3" Grid.Column="4" />
 
-        <GridSplitter Grid.Row="2" Grid.Column="2" Height="4" Style="{StaticResource GridSplitterStyle}" />
+        <GridSplitter Grid.Row="2" Grid.Column="2" Height="2" />
 
         <Grid Grid.Row="3" Grid.Column="2" Style="{StaticResource GridComponentStyle}">
             <Grid.RowDefinitions>

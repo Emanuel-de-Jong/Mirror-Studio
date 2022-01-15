@@ -7,4 +7,16 @@
         <Setter Property="FontSize" Value="19"/>
     </Style>
 
+
+    <Style TargetType="Border">
+        <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+        <Setter Property="BorderThickness" Value="2"/>
+    </Style>
+
+    <Style TargetType="GridSplitter">
+        <Setter Property="Background" Value="{StaticResource BorderColor}"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+    </Style>
+
 </ResourceDictionary>
